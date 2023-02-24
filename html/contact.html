@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="/css/index.css" rel="stylesheet">
+    <script defer src="/js/contact.js" type="module"></script>
+    <title>Contact</title>
+</head>
+<body>
+    <nav>
+        <a href="/" id="goBack">Go back!</a>
+        <a href="/index.html">Home</a>
+        <a href="/html/contact.html">Contact</a>
+    </nav>
+    <main>
+        <div id="contactDiv">
+            <h1 id="contactUs">Contact us!</h1>
+            <form>
+                <input name="fullName" id="fullName" placeholder="Full name (required)">
+                <div class="formError" id="fullNameError">Please enter your full name</div>
+                <input name="subject" id="subject" placeholder="Subject (min. 10 characters)">
+                <div class="formError" id="subjectError">Subject must contain at least 10 characters</div>
+                <input name="email" id="email" placeholder="Email (required)">
+                <div class="formError" id="emailError">Please enter a valid email address</div>
+                <input name="address" id="address" placeholder="Address (min. 25 characters)">
+                <div class="formError" id="addressError">Please enter a valid address</div>
+                <button id="formSubmit">Submit</button>
+                <button id="formReset" disabled>Reset</button>
+            </form>
+        </div>
+    </main>
+    <footer></footer>
+</body>
+</html>
