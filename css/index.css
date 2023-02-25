@@ -1,10 +1,19 @@
 body {
     background-color: rgba(88, 107, 255, 0.101);
     font-family: Arial, Helvetica, sans-serif;
+    min-height: 95vh;
+    display: flex;
+    flex-direction: column;
 }
 
 main {
     margin: 1.5rem; 
+}
+
+footer {
+    color: rgba(121, 121, 121, 0.772);
+    margin-top: auto;
+    text-align: center;
 }
 
 a {
@@ -61,7 +70,6 @@ nav *:hover {
     align-items: center;
     justify-content: space-evenly;
     margin: auto;
-    padding: 1rem;
 }
 
 #goBack {
@@ -98,7 +106,6 @@ form {
 }
 
 #contactDiv {
-    margin-top: 2rem;
     flex-direction: column;
     width: fit-content;
     padding: 2rem;
@@ -154,7 +161,6 @@ form {
     border-radius: 1rem;
     width: fit-content;
     margin: auto;
-    margin-top: 3rem;
     margin-bottom: 2rem;
 }
 
